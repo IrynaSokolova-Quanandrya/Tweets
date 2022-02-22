@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tweets</title>
 </head>
 <body>
-    <div>
-        <canvas id="myChart"></canvas>
-      </div>
-      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-      <script src="./index.js"></script>
+    <a href="./chart.html" class="link">Перейти к странице с графиком</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Airline</th>
+                <th>Sentiment</th>
+                <th>Text</th>                
+            </tr>
+        </thead>
+        <tbody class="tweets">          
+        </tbody>
+    </table>
+      <script src="./js//papaparse.min.js"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+      <script src="./js/index.js"></script>
 </body>
 </html>
